@@ -100,7 +100,7 @@ func registerStudent(c echo.Context) error {
 func healthCheck(c echo.Context) error {
 	return c.JSON(http.StatusOK, map[string]string{
 		"status":  "ok",
-		"version": "1.0",
+		"version": "2.0",
 	})
 }
 
